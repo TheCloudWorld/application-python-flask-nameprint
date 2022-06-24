@@ -1,7 +1,7 @@
 
 # Flask Container
 
-Below steps needs to be performed to containerize and run the flask application
+Below steps needs to be performed to containerize and run the flask application.
 
 
 ## Project Setup
