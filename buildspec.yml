@@ -25,4 +25,7 @@ phases:
       - echo Writing image definitions file...
       - printf '[{"name":"nameprint","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 artifacts:
-    files: imagedefinitions.json, pullimage.sh, applicationstart.sh, appspec.yml
+    files: imagedefinitions.json
+    files: pullimage.sh
+    files: applicationstart.sh
+    files: appspec.yml
