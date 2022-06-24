@@ -13,8 +13,8 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker pull thecloudworld/poll-frontend $REPOSITORY_URI:latest
-      - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
+      - docker pull thecloudworld/poll-frontend
+      - docker tag thecloudworld/poll-frontend $REPOSITORY_URI:$IMAGE_TAG
   post_build:
     commands:
       - echo Build completed on `date`
